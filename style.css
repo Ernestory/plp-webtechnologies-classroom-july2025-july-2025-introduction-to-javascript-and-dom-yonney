@@ -1,0 +1,20 @@
+:root{
+  --bg: #ffffff;
+  --fg: #222;
+  --accent: #2563eb;
+}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial;
+  margin: 24px;
+  background: var(--bg);
+  color: var(--fg);
+}
+main{max-width:900px}
+section{border:1px solid #eee;padding:12px;margin:12px 0;border-radius:6px}
+h1{margin-bottom:8px}
+label{display:inline-block;margin-right:8px}
+.output{margin-top:8px;font-weight:600}
+button{background:var(--accent);color:#fff;border:none;padding:6px 10px;border-radius:4px;cursor:pointer}
+button:active{transform:translateY(1px)}
+.dark{background:#111;color:#eee}
+.dark button{background:#0ea5a5}

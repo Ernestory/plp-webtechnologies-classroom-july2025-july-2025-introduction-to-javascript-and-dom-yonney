@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JS Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>JavaScript Fundamentals — Assignment</h1>
+
+    <section id="part1">
+      <h2>Part 1 — Basics (Variables & Conditionals)</h2>
+      <label>Enter your age: <input id="ageInput" type="number" min="0" /></label>
+      <button id="checkAgeBtn">Check Age</button>
+      <p id="ageResult" class="output"></p>
+    </section>
+
+    <section id="part2">
+      <h2>Part 2 — Functions</h2>
+      <label>Price: <input id="price" type="number" step="0.01" value="19.99"></label>
+      <label>Quantity: <input id="qty" type="number" value="3"></label>
+      <button id="calcBtn">Calculate Total</button>
+      <p id="totalResult" class="output"></p>
+    </section>
+
+    <section id="part3">
+      <h2>Part 3 — Loops</h2>
+      <label>Generate count: <input id="genCount" type="number" value="5" min="0"></label>
+      <button id="genBtn">Generate List Items</button>
+      <ul id="generatedList"></ul>
+
+      <div class="countdown">
+        <button id="startCountdown">Start Countdown (5)</button>
+        <p id="countdownArea" class="output"></p>
+      </div>
+    </section>
+
+    <section id="part4">
+      <h2>Part 4 — DOM Interactions</h2>
+      <label>Your name: <input id="nameInput" type="text" placeholder="Type your name"></label>
+      <button id="greetBtn">Greet</button>
+      <p id="greetResult" class="output"></p>
+
+      <button id="toggleTheme">Toggle Theme</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
